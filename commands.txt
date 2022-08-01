@@ -1,0 +1,13 @@
+tts --text "Our government has adopted several initiatives, such as appointing women in the fighter streams of Air Force and the military Police for the first time .As well as allowing women to work in underground and open cast . Keeping in mind the saftey of the women ,work on several initiatives such as setting up one stops centres, national database to criminals, emergency response system and fast track courts, across the country, is progressing at a rapid pace" --model_path ./checkpoint_1008000.pth --config_path ./config.json
+
+tts --text "You have lost the most precious game in the whole universe.You have a body like a aesthetic model." --model_path ./checkpoint_1008000.pth --config_path ./config.json
+
+
+tts --text "It fills my heart with joy unspeakable to rise in response to the warm and cordial welcome which you have given us. I thank you in the name of the most ancient order of monks in the world, I thank you in the name of the mother of religions, and I thank you in the name of millions and millions of Hindu people of all classes and sects. My thanks, also, to some of the speakers on this platform who, referring to the delegates from the Orient, have told you that these men from far-off nations may well claim the honor of bearing to different lands the idea of toleration. I am proud to belong to a religion which has taught the world both tolerance and universal acceptance. We believe not only in universal toleration, but we accept all religions as true. I am proud to belong to a nation which has sheltered the persecuted and the refugees of all religions and all nations of the earth. I am proud to tell you that we have gathered in our bosom the purest remnant of the Israelites, who came to Southern India and took refuge with us in the very year in which their holy temple was shattered to pieces by Roman tyranny." --model_path ./checkpoint_1008000.pth --config_path ./config.json
+
+
+
+
+/content/drive/MyDrive/VoiceCloning/models/checkpoint_1008000.pth /content/drive/MyDrive/VoiceCloning/models/checkpoint_1008000.pth
+
+tts --text "You have lost the most precious game in the whole universe.You have a body like a aesthetic model." --model_path /content/drive/MyDrive/VoiceCloning/models/checkpoint_1008000.pth --config_path /content/drive/MyDrive/VoiceCloning/models/config.json --out_path /content/drive/MyDrive/VoiceCloning/out1.wav
