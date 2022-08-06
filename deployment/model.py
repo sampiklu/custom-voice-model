@@ -256,7 +256,8 @@ print ("After trimming the stored files are in :",os.path.join(root_dir,'wavs_tr
 #resampling script to convert the sample rate to 22050  
 #!python resample.py --input_dir "\'/content/drive/MyDrive/VoiceCloning/lj speech own voice/wavs" --output_sr 22050 --output_dir #"/content/drive/MyDrive/VoiceCloning/datasets/wavs"
 
-ouput_path='/content/drive/MyDrive/VoiceCloning/datasets/wavs/'
+if not os.path.exists(os.path.join(root_dir,'logs')):
+    os.makedirs(os.path.join(root_dir,'logs'))
 
 #the training scripts run 
 #https://tts.readthedocs.io/en/latest/finetuning.html
