@@ -1,0 +1,11 @@
+!pip install -U pip
+!pip install TTS
+!pip install numpy
+!apt-get install espeak
+!pip install webrtcvad
+#https://www.geeksforgeeks.org/how-to-run-flask-app-on-google-colab/
+!pip install flask-ngrok
+!pip install flask
+!pip install pyngrok
+#Need to configure authentication to use flask-ngrok api
+!ngrok authtoken 'your token' (from-https://dashboard.ngrok.com/get-started/your-authtoken)
