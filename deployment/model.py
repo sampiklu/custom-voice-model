@@ -52,6 +52,11 @@ import webrtcvad
 
 #################################################################################
 
+from google.colab import drive
+drive.mount('/content/drive')
+
+#################################################################################
+
 #Preprocessing
 
 #all 100 raw audio has been stored under this directory after recording and manual cleanup by audasity software
