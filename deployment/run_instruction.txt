@@ -1,6 +1,11 @@
 Pleawse run the following step:
+
 1.python model.py 
-2.python resample.py --input_dir "\'/content/drive/MyDrive/VoiceCloning/lj speech own voice/wavs" --output_sr 22050 --output_dir "/content/drive/MyDrive/VoiceCloning/logs"
-3.python train_vits_v2.py --restore_path /content/drive/MyDrive/VoiceCloning/datasets/vits-tts-finetune-August-02-2022_08+32AM-0000000/checkpoint_1005000.pth --coqpit.run_name "vits-tts-finetune"'
-To deploy the code
+
+2.python resample.py --input_dir "/content/drive/MyDrive/VoiceCloning/lj speech own voice/wavs" --output_sr 22050 --output_dir "/content/drive/MyDrive/VoiceCloning/logs"
+
+3.python train_vits_v2.py --restore_path /content/drive/MyDrive/VoiceCloning/datasets/vits-tts-finetune-August-02-2022_08+32AM-0000000/checkpoint_1005000.pth --coqpit.run_name "vits-tts-finetune"
+
+To deploy the code from colab
+
 4.python app.py
