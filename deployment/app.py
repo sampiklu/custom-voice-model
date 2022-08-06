@@ -44,6 +44,11 @@ from TTS.tts.models import setup_model
 from TTS.config import load_config
 from TTS.tts.models.vits import *
 
+#################################################################################
+
+from google.colab import drive
+drive.mount('/content/drive')
+
 #########################################################################
 
 #create flask app 
