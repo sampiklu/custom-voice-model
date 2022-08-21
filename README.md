@@ -9,4 +9,4 @@ This repository aims to build a custom voice model
 
 4.To deploy the model, I have used flask-ngrok api to deploy it from colab.
 
-Contact: sampiklu@gmail.com
+
