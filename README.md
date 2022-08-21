@@ -1,7 +1,7 @@
 # custom-voice-model
 This repository aims to build a custom voice model
 
-1.Please unzip to check the notebook used for the project.
+1.Please unzip tts_my_own_voice_model.zip to check the notebook used for the project.
 
 2.the tts_output.wav file is one of the sample audio of tts_output.txt file.
 
